@@ -1,0 +1,12 @@
+#summary Frequently asked questions
+
+= Flash-VideoIO FAQ =
+
+== Is Flash application a good choice for VoIP? ==
+Please see my blog article [http://p2p-sip.blogspot.com/2010/02/faq-on-using-flash-player-to-make-phone.html FAQ on using Flash player to make phone calls] for answers to these questions:
+
+  # Is Flash application a good choice for VoIP?
+  # Will there be any performance degradation when the call goes through the following paths? (Flash Client -> Media Server ->RTMP to SIP Converter -> VOIP Server -> VoIP/PSTN Gateway -> PSTN Network -> Telephone)
+  # Some experts says that the development in C or C++ is prefered for VOIP call to phone instead of Flash Player for performance reason. Is that true?
+  # There are different media servers available. like Adobe Flash Media server (FMS), Wowza, Red5 etc. Which one is the best choice?
+  # We are now in a confusion whether to develop our VOIP application in Flash technology or QT/Java/C#. What will be your choice?
