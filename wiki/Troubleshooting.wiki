@@ -1,1 +1,3 @@
 #summary Post a comment to this page if you have problem using Flash-VideoIO
+
+  * Problem on Mac OS X if you used Chrome. It seems if you used Chrome with Google Video Chat plugin then the Flash Player stops detecting the correct camera even after you set the default camera in Flash Player settings. See [http://discussions.apple.com/thread.jspa?messageID=12579808 this article] on the problem and potential fix.
