@@ -13,7 +13,7 @@ Please see my blog article [http://p2p-sip.blogspot.com/2010/02/faq-on-using-fla
 
 == Does it support RTMP? What about RTMFP? ==
 
-Yes, it support both RTMP (client-server media path) and RTMFP (peer-to-peer media path). Most of the tutorial deals with RTMP. If you set the `src` property to appropriate "rtmfp" URL and set `farID` to appropriate value before setting `play`, then it enables RTMFP mode for peer-to-peer media. Please visit [http://myprojectguide.org/p/flash-videoio/9.html How to do peer-to-peer video call?] for details. Also some example applications such as iChatNow, Random-Face and Public-Chat listed on the [http://code.google.com/p/flash-videoio project page] use RTMFP using Adobe Stratus service.
+Yes, it supports both RTMP (client-server media path) and RTMFP (peer-to-peer media path). Most of the tutorial deals with RTMP. If you set the `src` property to appropriate "rtmfp" URL and set `farID` to appropriate value before setting `play`, then it enables RTMFP mode for peer-to-peer media. Please visit [http://myprojectguide.org/p/flash-videoio/9.html How to do peer-to-peer video call?] for details. Also some example applications such as iChatNow, Random-Face and Public-Chat listed on the [http://code.google.com/p/flash-videoio project page] use RTMFP using Adobe Stratus service.
 
 == Does it support web-to-phone calls and vice-versa? ==
 
@@ -21,4 +21,4 @@ Yes, partially. It supports Flash-to-SIP calls and vice-versa using an external 
 
 == Can I use it to build a video call application on Facebook using FBML? ==
 
-No. Facebook's FBML mangles Javascript. Due to this the API used to interact between Flash Player and Javascript breaks. A friend of mine is working on modifying Flash-VideoIO to make it compatible with Facebook. I will post an update when it is ready. On the other hand, you can build the application on your hosted web site, and include it in Facebook without FBML.
+Yes. Please see the [http://apps.facebook.com/face-talk Face Talk] application. Facebook's FBML mangles Javascript. Due to this the API used to interact between Flash Player and Javascript breaks. A friend of mine and I worked on a making Flash VideoIO compatible with Facebook.
