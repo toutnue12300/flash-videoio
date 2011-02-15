@@ -22,3 +22,7 @@ Yes, partially. It supports Flash-to-SIP calls and vice-versa using an external 
 == Can I use it to build a video call application on Facebook using FBML? ==
 
 Yes. Please see the [http://apps.facebook.com/face-talk Face Talk] application. Facebook's FBML mangles Javascript. Due to this the API used to interact between Flash Player and Javascript breaks. A friend of mine and I worked on a making Flash VideoIO compatible with Facebook.
+
+== How do I embed it in another Flex application? ==
+
+Starting with version 1.5, I have added support in VideoIO so that you can embed it in your another Flex application. The VideoIO.swf detects if it is the top level application then it enables ExternalInterface based communication with Javascript, otherwise it allows your Flex/ActionScript code to communicate with it directly using similar method and event names as the Javascript API. Until I formally document the API, you can see an example MXML code at http://myprojectguide.org/p/flash-videoio/flex-embed.mxml.txt
