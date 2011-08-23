@@ -44,6 +44,6 @@ The picture-in-picture mode is not planned to be explicitly implemented in Video
 
 We created an [http://myprojectguide.org/p/flash-videoio/pip.html example page] to test out this feature. You need to use Flash Player 10.3 or later, and use rtmplite's rtmp.py server for a quick test. You can view the source and incorporate similar code in your HTML for picture-in-picture mode.
 
-For embedding in HTML there are certain restrictions e.g., the minimum dimension of VideoIO must be 215x138 and full-screen mode is for each VideoIO. To avoid these restrictions you can embed the two VideoIO.swf in another Flash application. Please see the [http://myprojectguide.org/p/flash-videoio/12.htm API] for details.
+For embedding in HTML there are certain restrictions e.g., the minimum dimension of VideoIO must be 215x138 and full-screen mode is for each VideoIO. To avoid these restrictions you can embed the two VideoIO.swf in another Flash application. Please see the [http://myprojectguide.org/p/flash-videoio/12.html API] for details.
 
 If you have difficulty getting this to work on your browser or have something which is not working, please let us know and we will look in to it.
