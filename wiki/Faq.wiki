@@ -66,4 +66,4 @@ To avoid the loss of video on the sides, especially things such as TV channel ic
 
 ==How do I append instead of overwrite when record is true?==
 
-We have added a new property "recordMode" based on a patch by Qi Wenmin in SVN r49. The property can be used to set the record mode to append. Please see the [http://myprojectguide.org/p/flash-videoio/10.html API] description of recordMode for details.
+We have added a new property "recordMode" based on a patch by Qi Wenmin in SVN r49. This will become available in version 3.3 and later, until then feel free to use the SVN copy. The property can be used to set the record mode to append. Please see the [http://myprojectguide.org/p/flash-videoio/10.html API] description of recordMode for details.
