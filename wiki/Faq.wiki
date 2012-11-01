@@ -67,3 +67,7 @@ To avoid the loss of video on the sides, especially things such as TV channel ic
 ==How do I append instead of overwrite when record is true?==
 
 We have added a new property "recordMode" based on a patch by Qi Wenmin in SVN r49. This will become available in version 3.3 and later, until then feel free to use the SVN copy. The property can be used to set the record mode to append. Please see the [http://myprojectguide.org/p/flash-videoio/10.html API] description of recordMode for details.
+
+== It works on my local computer but not on the Internet. Why?==
+
+VideoIO itself is a tool, not a service, and you need a service to make it work completely. It can be used to connect via RTMP (TCP) or RTMFP (UDP). Both these require a service (or servers) that enable the connection between two VideoIO instances. Hosting a server costs money. Luckily, Adobe provides a free Stratus/Cirrus service for a subset of RTMFP, which we use in our free demonstration applications (vvowproject, public-chat, AIRphone, etc). Unfortunately, RTMFP does not work across all kinds of network devices. This [https://groups.google.com/d/msg/myprojectguide/-VMUu9yLJrI/t41-cRYjmaAJ forum post] provides more details on why this happens and what you can do about it. In summary, this is not a VideoIO issue but a Flash Player issue, and can largely be solved in your application that uses VideoIO and with your hosted service. You start with RTMFP, detect that it works or not, and fall back to RTMP if needed
